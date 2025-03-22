@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+
+
+ALLOWED_HOSTS = ['*', '0.0.0.0', 'localhost', '192.168.x.x','your-app-name.herokuapp.com']
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,6 +28,7 @@ SECRET_KEY = 'django-insecure-qlag58uqtk*)j#y!=w!lyo-@x*859tcjxk8_k6e8g+6now8d5u
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+#DEBUG = False
 
 ALLOWED_HOSTS = []
 

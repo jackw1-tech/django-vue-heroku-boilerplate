@@ -1,0 +1,3 @@
+Step1: Vai su settings.py e cambia da DEBUG = TRUE a DEBUG = False
+STep2: Vai su endpoints.js e cambia da const baseEndpoint = "http://127.0.0.1:8000/" a 
+const baseEndpoint = "https://italianbliss-ad8f4a3afa98.herokuapp.com/"
